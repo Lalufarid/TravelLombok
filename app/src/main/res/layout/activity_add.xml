@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/latarr">
+
+    <ImageView
+        android:id="@+id/img_wisata"
+        android:background="@drawable/ic_photo"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/inputtt"/>
+
+        <EditText
+            android:id="@+id/et_namaWisata"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="-178dp"
+            android:fontFamily="@font/roboto"
+            android:hint="Nama Tempat Wisata"
+            android:textColorHint="@color/white"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/et_lokasiWisata"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/roboto"
+            android:hint="Lokasi Wisata"
+            android:textColorHint="@color/white"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/et_descWisata"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/roboto"
+            android:hint="Deskripsi Wisata"
+            android:textColorHint="@color/white"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/id_kabupaten"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/roboto"
+            android:hint="masukkan kabupaten"
+            android:textColorHint="@color/white"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:inputType="text"/>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <Button
+        android:id="@+id/btn_save"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Submit"/>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Fragment.AdminLobutFragment"
+android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/latarkurvaa"/>
+    <ImageView
+        android:layout_marginTop="-280dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/judullll"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_marginTop="-70dp"
+    android:layout_width="match_parent"
+    android:layout_height="460dp"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_adminlistlobut"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        tools:listitem="@layout/item_wisata" />
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/addWisata"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_add"/>
+</LinearLayout>
+
+</LinearLayout>

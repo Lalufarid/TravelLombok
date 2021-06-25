@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HomeFragment"
+    android:orientation="vertical"
+    android:id="@+id/container">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/latarkurva"/>
+        <ImageView
+            android:layout_marginTop="-280dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/judullll"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="-70dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="8dp"
+            >
+            <TextView
+                android:id="@+id/tvbaru"
+                android:fontFamily="@font/arkhip"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih Tujuan Anda"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="8dp"
+                app:layout_columnWeight="1"
+
+                app:strokeWidth="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnLotim"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/lotim"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/new_font"
+                        android:gravity="center"
+                        android:text="Lombok Timur"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="8dp"
+                app:layout_columnWeight="1"
+                app:strokeWidth="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnLobar"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+
+                        android:layout_gravity="center"
+                        android:src="@drawable/lobar"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/new_font"
+                        android:gravity="center"
+                        android:text="Lombok Barat"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/btn_hbr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="8dp"
+                app:layout_columnWeight="1"
+
+                app:strokeWidth="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnLobut"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/lobut"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/new_font"
+                        android:gravity="center"
+                        android:text="Lombok Utara"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/btn_srn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="8dp"
+                app:layout_columnWeight="1"
+
+                app:strokeWidth="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnLoteng"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+
+                        android:layout_gravity="center"
+                        android:src="@drawable/loteng"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/new_font"
+                        android:gravity="center"
+                        android:text="Lombok Tengah"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

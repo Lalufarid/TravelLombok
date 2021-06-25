@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_lotim"
+        android:icon="@drawable/ic_location"
+        android:title="Lombok timur" />
+    <item
+        android:id="@+id/nav_lobar"
+        android:icon="@drawable/ic_location"
+        android:title="Lombok Barat" />
+    <item
+        android:id="@+id/nav_loteng"
+        android:icon="@drawable/ic_location"
+        android:title="Lombok Tengah" />
+    <item
+        android:id="@+id/nav_lobut"
+        android:icon="@drawable/ic_location"
+        android:title="Lombok Utara" />
+    <item
+        android:id="@+id/nav_kendaraan"
+        android:icon="@drawable/ic_car"
+        android:title="Kendaraan" />
+    <item
+        android:id="@+id/nav_verifikasi"
+        android:title="Verifikasi" />
+</menu>

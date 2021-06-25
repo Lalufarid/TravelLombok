@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "118478975496",
+    "project_id": "lomboktravel-86a05",
+    "storage_bucket": "lomboktravel-86a05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118478975496:android:20e846a228389c3b6057bd",
+        "android_client_info": {
+          "package_name": "com.example.lomboktravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118478975496-0f3l91jlh734balr4uqajerlkuc5ikrm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lomboktravel",
+            "certificate_hash": "c4e1eee44beb3416babb04ac64d6ed69759725e6"
+          }
+        },
+        {
+          "client_id": "118478975496-m91nl4s08om1hjoblmen8b0rp9h85inp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaT5x2RjX5DzqSWszr9gbjOvHiAO22IaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118478975496-m91nl4s08om1hjoblmen8b0rp9h85inp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
